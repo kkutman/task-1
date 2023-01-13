@@ -1,0 +1,354 @@
+create table products (
+    id serial primary key,
+    name VARCHAR(50),
+    description VARCHAR(500),
+    price INT,
+    weihgt INT
+);
+
+insert into products (name, description, price, weihgt) values ('Pastry - Apple Large', 'Supplement Upper Lip with Autol Sub, Open Approach', 607, 1217);
+insert into products (name, description, price, weihgt) values ('Tea - Decaf 1 Cup', 'Insertion of Infusion Device into Pancreat Duct, Via Opening', 522, 1589);
+insert into products (name, description, price, weihgt) values ('Lettuce - Mini Greens, Whole', 'Bypass Gallbladder to Small Intestine, Perc Endo Approach', 503, 1897);
+insert into products (name, description, price, weihgt) values ('Sauce - Soya, Dark', 'Bypass R Ext Iliac Art to L Int Ilia w Nonaut Sub, Perc Endo', 442, 1538);
+insert into products (name, description, price, weihgt) values ('Juice - Lemon', 'Extirpation of Matter from Lumbar Plexus, Perc Endo Approach', 695, 832);
+insert into products (name, description, price, weihgt) values ('Soup Campbells - Italian Wedding', 'Dilate R Int Mamm Art, Bifurc, w 4+ Intralum Dev, Perc Endo', 407, 798);
+insert into products (name, description, price, weihgt) values ('Wine - Semi Dry Riesling Vineland', 'Control Bleeding in Left Hand, Open Approach', 815, 1846);
+insert into products (name, description, price, weihgt) values ('Sun - Dried Tomatoes', 'Reposition Products of Conception, Ectopic, Endo', 126, 1091);
+insert into products (name, description, price, weihgt) values ('Bread - White Mini Epi', 'Extraction of Facial Nerve, Open Approach', 236, 1225);
+insert into products (name, description, price, weihgt) values ('Eel Fresh', 'Repair Right Internal Iliac Artery, Perc Endo Approach', 161, 1121);
+insert into products (name, description, price, weihgt) values ('Bread Cranberry Foccacia', 'Supplement Inf Mesent Vein with Nonaut Sub, Perc Approach', 456, 1719);
+insert into products (name, description, price, weihgt) values ('Nut - Almond, Blanched, Ground', 'Replace of Ampulla Vater with Autol Sub, Perc Endo Approach', 282, 1293);
+insert into products (name, description, price, weihgt) values ('Cabbage - Red', 'Removal of Nonaut Sub from R Up Extrem, Open Approach', 943, 1984);
+insert into products (name, description, price, weihgt) values ('Sauerkraut', 'Hepatobiliary System and Pancreas, Restriction', 536, 239);
+insert into products (name, description, price, weihgt) values ('Wine - Vovray Sec Domaine Huet', 'Repair Left Index Finger, Percutaneous Approach', 550, 1190);
+insert into products (name, description, price, weihgt) values ('Flavouring - Rum', 'Dilate L Hand Art w Drug-elut Intra, Perc Endo', 425, 917);
+insert into products (name, description, price, weihgt) values ('Mustard - Dry, Powder', 'Bypass R Ext Iliac Art to R Int Ilia w Nonaut Sub, Open', 676, 660);
+insert into products (name, description, price, weihgt) values ('Cheese - Montery Jack', 'Repair Endocrine System in POC with Oth Dev, Perc Approach', 834, 765);
+insert into products (name, description, price, weihgt) values ('Appetizer - Assorted Box', 'Extirpate matter from R Foot Bursa/Lig, Perc Endo', 175, 1789);
+insert into products (name, description, price, weihgt) values ('Black Currants', 'Repair Chest Subcutaneous Tissue and Fascia, Open Approach', 803, 1317);
+insert into products (name, description, price, weihgt) values ('Snapple - Iced Tea Peach', 'Dilation of Stomach, Pylorus, Percutaneous Approach', 594, 1583);
+insert into products (name, description, price, weihgt) values ('Coffee Swiss Choc Almond', 'Drainage of Left External Ear, Open Approach, Diagnostic', 741, 1456);
+insert into products (name, description, price, weihgt) values ('Mangoes', 'Drainage of Cerebral Meninges, Percutaneous Approach, Diagn', 102, 1591);
+insert into products (name, description, price, weihgt) values ('Sprouts - Corn', 'Dilate R Ulnar Art, Bifurc, w 3 Intralum Dev, Perc', 107, 565);
+insert into products (name, description, price, weihgt) values ('Bread Crumbs - Panko', 'Extirpate matter from 1 Cor Art, Bifurc, Perc Endo', 644, 1123);
+insert into products (name, description, price, weihgt) values ('Quinoa', 'Transfer Facial Muscle, Percutaneous Endoscopic Approach', 512, 1951);
+insert into products (name, description, price, weihgt) values ('Alize Gold Passion', 'Drainage of Left Spermatic Cord, Perc Approach, Diagn', 620, 1893);
+insert into products (name, description, price, weihgt) values ('Rum - Spiced, Captain Morgan', 'Reposition Cervical Plexus, Percutaneous Approach', 329, 570);
+insert into products (name, description, price, weihgt) values ('Steampan - Foil', 'Male Reproductive System, Resection', 884, 358);
+insert into products (name, description, price, weihgt) values ('Shopper Bag - S - 4', 'Restriction of Esophagogastric Junction, Open Approach', 738, 1779);
+insert into products (name, description, price, weihgt) values ('Vaccum Bag 10x13', 'Insertion of Infusion Device into Chest Wall, Open Approach', 170, 683);
+insert into products (name, description, price, weihgt) values ('Turnip - White', 'Removal of Int Fix from L Wrist Jt, Open Approach', 354, 756);
+insert into products (name, description, price, weihgt) values ('Mushroom - Portebello', 'Removal of Int Fix from L Ankle Jt, Extern Approach', 125, 906);
+insert into products (name, description, price, weihgt) values ('Roe - Lump Fish, Black', 'Reposition Left Ethmoid Bone, External Approach', 273, 1390);
+insert into products (name, description, price, weihgt) values ('Kiwi Gold Zespri', 'Tinnitus Masker Assessment using Hear Aid Equipment', 821, 1154);
+insert into products (name, description, price, weihgt) values ('Wine - Two Oceans Sauvignon', 'Bypass L Subclav Vein to Up Vein w Nonaut Sub, Open', 616, 1711);
+insert into products (name, description, price, weihgt) values ('Nantuket Peach Orange', 'Fluoroscopy of Lumbar Art using Oth Contrast, Laser Intraop', 270, 1349);
+insert into products (name, description, price, weihgt) values ('Tart - Butter Plain Squares', 'Extraction of Right Cornea, External Approach, Diagnostic', 698, 521);
+insert into products (name, description, price, weihgt) values ('Pasta - Orecchiette', 'Change Other Device in Spleen, External Approach', 788, 302);
+insert into products (name, description, price, weihgt) values ('Syrup - Golden, Lyles', 'Repair Left Common Iliac Vein, Perc Endo Approach', 850, 1826);
+insert into products (name, description, price, weihgt) values ('Galliano', 'Removal of Splint on Back', 951, 642);
+insert into products (name, description, price, weihgt) values ('Salt - Rock, Course', 'Fusion Cerv Jt w Nonaut Sub, Post Appr P Col, Open', 265, 1790);
+insert into products (name, description, price, weihgt) values ('Milk - 2%', 'Restrict L Up Extrem Lymph w Extralum Dev, Perc Endo', 148, 702);
+insert into products (name, description, price, weihgt) values ('Vinegar - Cider', 'Drain of L Axilla Lymph with Drain Dev, Perc Endo Approach', 145, 1237);
+insert into products (name, description, price, weihgt) values ('Corn - Cream, Canned', 'Dilation of Innominate Artery, Open Approach', 235, 524);
+insert into products (name, description, price, weihgt) values ('Beans - Wax', 'Revision of Int Fix in R Clavicle, Open Approach', 408, 1172);
+insert into products (name, description, price, weihgt) values ('Butter - Salted, Micro', 'Dilation of 3 Cor Art with 4 Drug-elut, Open Approach', 423, 1395);
+insert into products (name, description, price, weihgt) values ('Wild Boar - Tenderloin', 'Removal of Extralum Dev from Thoracic Duct, Open Approach', 712, 1949);
+insert into products (name, description, price, weihgt) values ('Seabream Whole Farmed', 'CT Scan of Skull using L Osm Contrast', 731, 1348);
+insert into products (name, description, price, weihgt) values ('Lid - Translucent, 3.5 And 6 Oz', 'Removal of Other Device on Left Lower Extremity', 996, 476);
+
+create table customers (
+    id serial primary key,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(50),
+    phone_number VARCHAR(50)
+);
+insert into customers (first_name, last_name, email, phone_number) values ('Anderson', 'Godmer', 'agodmer0@networksolutions.com', '(940) 1733998');
+insert into customers (first_name, last_name, email, phone_number) values ('Weidar', 'Chessum', 'wchessum1@craigslist.org', '(542) 9778879');
+insert into customers (first_name, last_name, email, phone_number) values ('West', 'Carstairs', 'wcarstairs2@forbes.com', '(466) 5416025');
+insert into customers (first_name, last_name, email, phone_number) values ('Rice', 'Nawton', 'rnawton3@wisc.edu', '(195) 7986943');
+insert into customers (first_name, last_name, email, phone_number) values ('Ricoriki', 'Hartwright', 'rhartwright4@washington.edu', '(816) 4158701');
+insert into customers (first_name, last_name, email, phone_number) values ('Cully', 'Outram', 'coutram5@marketwatch.com', '(911) 3541302');
+insert into customers (first_name, last_name, email, phone_number) values ('Shae', 'Eckersall', 'seckersall6@yellowbook.com', '(783) 5524880');
+insert into customers (first_name, last_name, email, phone_number) values ('Arliene', 'Goulstone', 'agoulstone7@mit.edu', '(748) 4775007');
+insert into customers (first_name, last_name, email, phone_number) values ('Adelice', 'Peal', 'apeal8@icio.us', '(306) 9625653');
+insert into customers (first_name, last_name, email, phone_number) values ('Isaac', 'Grayshan', 'igrayshan9@amazon.de', '(891) 3825395');
+insert into customers (first_name, last_name, email, phone_number) values ('Barbara', 'MacAllister', 'bmacallistera@reuters.com', '(301) 8685796');
+insert into customers (first_name, last_name, email, phone_number) values ('Evie', 'Kobu', 'ekobub@walmart.com', '(830) 4885902');
+insert into customers (first_name, last_name, email, phone_number) values ('Hobard', 'Pickston', 'hpickstonc@ftc.gov', '(691) 8388816');
+insert into customers (first_name, last_name, email, phone_number) values ('Stefan', 'Byres', 'sbyresd@fc2.com', '(472) 4079869');
+insert into customers (first_name, last_name, email, phone_number) values ('Anatollo', 'Valentinuzzi', 'avalentinuzzie@si.edu', '(762) 9067190');
+insert into customers (first_name, last_name, email, phone_number) values ('Leila', 'Brookshaw', 'lbrookshawf@merriam-webster.com', '(565) 1100451');
+insert into customers (first_name, last_name, email, phone_number) values ('Fawn', 'Van Halle', 'fvanhalleg@bandcamp.com', '(726) 6500874');
+insert into customers (first_name, last_name, email, phone_number) values ('Carroll', 'Calan', 'ccalanh@dot.gov', '(747) 5122617');
+insert into customers (first_name, last_name, email, phone_number) values ('Melania', 'Steels', 'msteelsi@answers.com', '(763) 3742398');
+insert into customers (first_name, last_name, email, phone_number) values ('Maximilianus', 'Leaver', 'mleaverj@myspace.com', '(309) 5039678');
+insert into customers (first_name, last_name, email, phone_number) values ('Amery', 'Edmons', 'aedmonsk@nydailynews.com', '(915) 6818695');
+insert into customers (first_name, last_name, email, phone_number) values ('Sari', 'Coventry', 'scoventryl@prweb.com', '(500) 7110746');
+insert into customers (first_name, last_name, email, phone_number) values ('Gianni', 'Wones', 'gwonesm@about.me', '(905) 2559545');
+insert into customers (first_name, last_name, email, phone_number) values ('Coriss', 'Smale', 'csmalen@over-blog.com', '(422) 1994915');
+insert into customers (first_name, last_name, email, phone_number) values ('Rhonda', 'Haswall', 'rhaswallo@va.gov', '(204) 4654730');
+insert into customers (first_name, last_name, email, phone_number) values ('Erwin', 'Beine', 'ebeinep@ebay.co.uk', '(576) 1499033');
+insert into customers (first_name, last_name, email, phone_number) values ('Nicolais', 'Dust', 'ndustq@irs.gov', '(724) 4259511');
+insert into customers (first_name, last_name, email, phone_number) values ('Jameson', 'Klima', 'jklimar@sina.com.cn', '(415) 6443873');
+insert into customers (first_name, last_name, email, phone_number) values ('Baldwin', 'Andover', 'bandovers@cbsnews.com', '(925) 8675567');
+insert into customers (first_name, last_name, email, phone_number) values ('Tandy', 'Moreinu', 'tmoreinut@godaddy.com', '(612) 9556947');
+insert into customers (first_name, last_name, email, phone_number) values ('Larissa', 'Dodgson', 'ldodgsonu@nps.gov', '(617) 3160297');
+insert into customers (first_name, last_name, email, phone_number) values ('Avigdor', 'Oades', 'aoadesv@biglobe.ne.jp', '(852) 7556029');
+insert into customers (first_name, last_name, email, phone_number) values ('Ludovico', 'Brownsey', 'lbrownseyw@go.com', '(372) 3307422');
+insert into customers (first_name, last_name, email, phone_number) values ('Leila', 'Owbrick', 'lowbrickx@ibm.com', '(140) 4869669');
+insert into customers (first_name, last_name, email, phone_number) values ('Aggy', 'Strathman', 'astrathmany@exblog.jp', '(938) 3481208');
+insert into customers (first_name, last_name, email, phone_number) values ('Betteanne', 'Poupard', 'bpoupardz@cdbaby.com', '(302) 8645816');
+insert into customers (first_name, last_name, email, phone_number) values ('Lesya', 'Plaide', 'lplaide10@nytimes.com', '(465) 3689821');
+insert into customers (first_name, last_name, email, phone_number) values ('Ellary', 'Taaffe', 'etaaffe11@samsung.com', '(408) 3559000');
+insert into customers (first_name, last_name, email, phone_number) values ('Saunder', 'Eiler', 'seiler12@sogou.com', '(177) 2896018');
+insert into customers (first_name, last_name, email, phone_number) values ('Reggi', 'Grassick', 'rgrassick13@artisteer.com', '(682) 4303763');
+insert into customers (first_name, last_name, email, phone_number) values ('Tibold', 'Wimpeney', 'twimpeney14@vimeo.com', '(248) 2041125');
+insert into customers (first_name, last_name, email, phone_number) values ('Mariam', 'Franies', 'mfranies15@gnu.org', '(939) 1328790');
+insert into customers (first_name, last_name, email, phone_number) values ('Amby', 'Comfort', 'acomfort16@topsy.com', '(142) 2696197');
+insert into customers (first_name, last_name, email, phone_number) values ('Nola', 'Feasey', 'nfeasey17@archive.org', '(636) 2992712');
+insert into customers (first_name, last_name, email, phone_number) values ('Georas', 'O''Hederscoll', 'gohederscoll18@reverbnation.com', '(544) 8842614');
+insert into customers (first_name, last_name, email, phone_number) values ('Appolonia', 'Laffin', 'alaffin19@ask.com', '(552) 8304627');
+insert into customers (first_name, last_name, email, phone_number) values ('Odette', 'Magson', 'omagson1a@phpbb.com', '(297) 2909506');
+insert into customers (first_name, last_name, email, phone_number) values ('Christian', 'Geator', 'cgeator1b@simplemachines.org', '(520) 1153844');
+insert into customers (first_name, last_name, email, phone_number) values ('Gabriella', 'Masterson', 'gmasterson1c@accuweather.com', '(638) 5719120');
+insert into customers (first_name, last_name, email, phone_number) values ('Dory', 'Doone', 'ddoone1d@reference.com', '(613) 3995373');
+
+create table product_info (
+     id serial primary key,
+     expiration_date DATE,
+     country VARCHAR(50),
+     color VARCHAR(50),
+     product_id INT references products (id)
+);
+
+insert into product_info (expiration_date, country, color, product_id) values ('2022-05-30', 'Ireland', 'Green', 1);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-04-14', 'China', 'Khaki', 2);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-05-20', 'China', 'Red', 3);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-15', 'Philippines', 'Yellow', 4);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-01', 'China', 'Orange', 5);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-08-15', 'Uzbekistan', 'Pink', 6);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-04-18', 'Czech Republic', 'Yellow', 7);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-24', 'Portugal', 'Teal', 8);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-13', 'China', 'Purple', 9);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-12-21', 'China', 'Blue', 10);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-08-14', 'Japan', 'Khaki', 11);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-11-09', 'China', 'Teal', 12);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-10-25', 'Vietnam', 'Green', 13);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-06-12', 'Ukraine', 'Puce', 14);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-11-13', 'China', 'Teal', 15);
+insert into product_info (expiration_date, country, color, product_id) values ('2023-01-02', 'Mexico', 'Purple', 17);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-05-07', 'Japan', 'Orange', 18);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-12-21', 'Sweden', 'Crimson', 19);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-03', 'China', 'Aquamarine', 20);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-10-31', 'El Salvador', 'Green', 21);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-05-04', 'China', 'Mauv', 22);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-09-09', 'Portugal', 'Orange', 23);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-09-06', 'Italy', 'Puce', 24);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-01-19', 'Sweden', 'Aquamarine', 25);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-03-11', 'Madagascar', 'Fuscia', 26);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-09-14', 'Czech Republic', 'Blue', 27);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-04-24', 'Paraguay', 'Purple', 28);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-30', 'China', 'Red', 30);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-11-05', 'Albania', 'Aquamarine', 31);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-08-03', 'Indonesia', 'Blue', 33);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-06-02', 'Brazil', 'Aquamarine', 34);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-10-25', 'China', 'Goldenrod', 35);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-10-29', 'Poland', 'Goldenrod', 36);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-14', 'Philippines', 'Indigo', 37);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-02-24', 'Japan', 'Crimson', 38);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-10-06', 'China', 'Maroon', 39);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-09', 'Ukraine', 'Yellow', 40);
+insert into product_info (expiration_date, country, color, product_id) values ('2023-01-10', 'Ukraine', 'Khaki', 41);
+insert into product_info (expiration_date, country, color, product_id) values ('2023-01-10', 'Ukraine', 'Khaki', null);
+insert into product_info (expiration_date, country, color) values ('2023-01-10', 'Ukraine', 'Khaki');
+insert into product_info (expiration_date, country, color, product_id) values ('2022-03-15', 'Iran', 'Purple', 42);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-07-15', 'Bolivia', 'Fuscia', 43);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-11-06', 'China', 'Green', 45);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-11-06', 'China', 'Green', null);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-08-14', 'United States', 'Puce', 46);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-04-20', 'Haiti', 'Purple', 47);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-09-08', 'China', 'Teal', 48);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-09-27', 'Greece', 'Purple', 49);
+insert into product_info (expiration_date, country, color, product_id) values ('2022-12-23', 'China', 'Indigo', 50);
+
+create table basket (
+    id serial primary key,
+    basket_name VARCHAR(500),
+    customer_id INT
+);
+insert into basket (basket_name, customer_id) values ('Carisoprodol', 1);
+insert into basket (basket_name, customer_id) values ('FLAWLESS FINISH ', 2);
+insert into basket (basket_name, customer_id) values ('L-Methyl-B6-B12', 3);
+insert into basket (basket_name, customer_id) values ('SEMPREX', 4);
+insert into basket (basket_name, customer_id) values ('Muscle Ice', 5);
+insert into basket (basket_name, customer_id) values ('BENZONATATE', 6);
+insert into basket (basket_name, customer_id) values ('LOSARTAN POTASSIUM ', 7);
+insert into basket (basket_name, customer_id) values ('Ulta Vanilla Sugar', 8);
+insert into basket (basket_name, customer_id) values ('Blue Spruce', 9);
+insert into basket (basket_name, customer_id) values ('pain relief', 10);
+insert into basket (basket_name, customer_id) values ('Lidocaine Hydrochloride', 11);
+insert into basket (basket_name, customer_id) values ('meloxicam', 12);
+insert into basket (basket_name, customer_id) values ('Cimetidine', 13);
+insert into basket (basket_name, customer_id) values ('ADVANCED ', 14);
+insert into basket (basket_name, customer_id) values ('Nitrofurantoin Macrocrystals', 15);
+insert into basket (basket_name, customer_id) values ('Zolmitriptan ', 16);
+insert into basket (basket_name, customer_id) values ('Terbinafine Hydrochloride', 17);
+insert into basket (basket_name, customer_id) values ('Topcare Mucus Relief', 18);
+insert into basket (basket_name, customer_id) values ('Atenolol', 19);
+insert into basket (basket_name, customer_id) values ('STEMPHYLIUM SOLANI', 20);
+insert into basket (basket_name, customer_id) values ('IASO A5 Super ', 21);
+insert into basket (basket_name, customer_id) values ('SSD Cream', 22);
+insert into basket (basket_name, customer_id) values ('EPOGEN', 23);
+insert into basket (basket_name, customer_id) values ('Famotidine', 24);
+insert into basket (basket_name, customer_id) values ('Humco Epson Salt', 25);
+insert into basket (basket_name, customer_id) values ('ONGLYZA', 26);
+insert into basket (basket_name, customer_id) values ('Felodipine', 27);
+insert into basket (basket_name, customer_id) values ('Diclofenac Sodium', 28);
+insert into basket (basket_name, customer_id) values ('Levetiracetam', 29);
+insert into basket (basket_name, customer_id) values ('Caraway Seed', 30);
+insert into basket (basket_name, customer_id) values ('TIMOLOL MALEATE', 31);
+insert into basket (basket_name, customer_id) values ('Purell ', 32);
+insert into basket (basket_name, customer_id) values ('Exchange ', 33);
+insert into basket (basket_name, customer_id) values ('Childrens Non-Drowsy', 34);
+insert into basket (basket_name, customer_id) values ('Promethazine Hydrochloride', 35);
+insert into basket (basket_name, customer_id) values ('Topex', 36);
+insert into basket (basket_name, customer_id) values ('Amiodarone hydrochloride', 37);
+insert into basket (basket_name, customer_id) values ('Carbidopa', 38);
+insert into basket (basket_name, customer_id) values ('ciprofloxacin', 39);
+insert into basket (basket_name, customer_id) values ('HYDROCODONE ', 40);
+insert into basket (basket_name, customer_id) values ('Irbesartan', 41);
+insert into basket (basket_name, customer_id) values ('KETOROLAC TROMETHAMINE', 42);
+insert into basket (basket_name, customer_id) values ('Methylene Blue', 43);
+insert into basket (basket_name, customer_id) values ('Immunexx', 44);
+insert into basket (basket_name, customer_id) values ('ELF Flawless ', 45);
+insert into basket (basket_name, customer_id) values ('Wal-Finite', 46);
+insert into basket (basket_name, customer_id) values ('Childrens Allergy', 47);
+insert into basket (basket_name, customer_id) values ('Freds Hemorrhoidal', 48);
+insert into basket (basket_name, customer_id) values ('Zodryl DEC 80', 49);
+insert into basket (basket_name, customer_id) values ('Irritable BowelCare', 50);
+
+create table product_basket (
+                                id serial primary key,
+                                basket_id INT,
+                                product_id INT
+);
+insert into product_basket (basket_id, product_id) values (1, 1);
+insert into product_basket (basket_id, product_id) values (1, 1);
+insert into product_basket (basket_id, product_id) values (2, 2);
+insert into product_basket (basket_id, product_id) values (3, 3);
+insert into product_basket (basket_id, product_id) values (4, 4);
+insert into product_basket (basket_id, product_id) values (5, 5);
+insert into product_basket (basket_id, product_id) values (6, 6);
+insert into product_basket (basket_id, product_id) values (7, 7);
+insert into product_basket (basket_id, product_id) values (8, 8);
+insert into product_basket (basket_id, product_id) values (9, 9);
+insert into product_basket (basket_id, product_id) values (10, 10);
+insert into product_basket (basket_id, product_id) values (11, 11);
+insert into product_basket (basket_id, product_id) values (12, 12);
+insert into product_basket (basket_id, product_id) values (13, 13);
+insert into product_basket (basket_id, product_id) values (14, 14);
+insert into product_basket (basket_id, product_id) values (15, 15);
+insert into product_basket (basket_id, product_id) values (16, 16);
+insert into product_basket (basket_id, product_id) values (17, 17);
+insert into product_basket (basket_id, product_id) values (18, 18);
+insert into product_basket (basket_id, product_id) values (19, 19);
+insert into product_basket (basket_id, product_id) values (20, 20);
+insert into product_basket (basket_id, product_id) values (21, 21);
+insert into product_basket (basket_id, product_id) values (22, 22);
+insert into product_basket (basket_id, product_id) values (23, 23);
+insert into product_basket (basket_id, product_id) values (24, 24);
+insert into product_basket (basket_id, product_id) values (25, 25);
+insert into product_basket (basket_id, product_id) values (26, 26);
+insert into product_basket (basket_id, product_id) values (27, 27);
+insert into product_basket (basket_id, product_id) values (28, 28);
+insert into product_basket (basket_id, product_id) values (29, 29);
+insert into product_basket (basket_id, product_id) values (30, 30);
+insert into product_basket (basket_id, product_id) values (31, 31);
+insert into product_basket (basket_id, product_id) values (32, 32);
+insert into product_basket (basket_id, product_id) values (33, 33);
+insert into product_basket (basket_id, product_id) values (34, 34);
+insert into product_basket (basket_id, product_id) values (35, 35);
+insert into product_basket (basket_id, product_id) values (36, 36);
+insert into product_basket (basket_id, product_id) values (37, 37);
+insert into product_basket (basket_id, product_id) values (38, 38);
+insert into product_basket (basket_id, product_id) values (39, 39);
+insert into product_basket (basket_id, product_id) values (40, 40);
+insert into product_basket (basket_id, product_id) values (41, 41);
+insert into product_basket (basket_id, product_id) values (42, 42);
+insert into product_basket (basket_id, product_id) values (43, 43);
+insert into product_basket (basket_id, product_id) values (44, 44);
+insert into product_basket (basket_id, product_id) values (45, 45);
+insert into product_basket (basket_id, product_id) values (46, 46);
+insert into product_basket (basket_id, product_id) values (47, 47);
+insert into product_basket (basket_id, product_id) values (48, 48);
+insert into product_basket (basket_id, product_id) values (49, 49);
+insert into product_basket (basket_id, product_id) values (50, 50);
+
+
+--1. Баардык продукталарды(Products) жана информацияларды чыгар.
+select * from products full join  product_info on products.id = product_info.product_id;
+
+--2. Информациясы бар болгон продукталарды гана чыгар.
+select * from products join product_info on products.id=product_info.product_id;
+
+--3. Информациясы жок(null) болгон продукталарды чыгар.
+select * from products left join product_info pi on products.id = pi.product_id where pi.id is null;
+
+--4. Баардык продукталардын атын жана срогун чыгар
+select name,expiration_date from products join product_info pi on products.id = pi.product_id;
+
+--5. Баардык продукталарды жана анын мамлекеттери "М" менен башталган шаарларын чыгар.
+select * from products join product_info pi on products.id = pi.product_id where pi.country like 'M%';
+
+--6. Баардык кардардын(Customers) аттарын жана кардарга тийешелуу карзинанын(Basket_терин) аттарын сорттоп чыгар.(asc,desc).
+select basket_name,first_name from  customers join basket b  on  customers.id = b.customer_id order by b.basket_name;
+
+--7. Кардардын аты жана кардардын продуктулары чыксын.
+select first_name,products.id,name,description,price,weihgt from products join product_basket b
+on b.product_id = products.id join basket b2 on b.basket_id = b2.id join customers c on b2.customer_id = c.id;
+
+--8. Кардардын аты, кардар алган продуктун аты, баасы, салмагы чыксын.
+select first_name,name,price,weihgt from customers join basket b on customers.id = b.customer_id  join
+product_basket pb on b.id = pb.basket_id join products p on pb.product_id = p.id;
+
+--9. Бир кардар эки окшош продукт алган болсо, кардардын аты, кардар алган продукталарынын аты уникалдуу болуп баасы жана салмагы кошулуп чыгар.
+
+
+--10.Бир өлкөдө чыккан продукталдын баарын чыгар.
+select country,name from product_info join products pi on pi.id = product_info.product_id order by product_info.country, pi.name;
+select country,name from product_info join products pi on pi.id = product_info.product_id where country = 'Ukraine';
+
+--11.Кардарлардын баарын жана алган продукталарынын баасынын суммасын тегеректеп (округлить) чыгар.
+select sum(price),*from customers join basket b on customers.id = b.customer_id join product_basket pb on b.id = pb.basket_id
+    join basket b2 on b2.id = pb.basket_id join products b3 on b3.id = pb.basket_id
+group by customers.id, first_name, last_name, email, phone_number, b.id, b.basket_name, b.customer_id, pb.id, basket_id, product_id, b2.id, b2.basket_name, b2.customer_id, b3.id, name, description, price, weihgt;
+
+--12."2021" ден "2023" кө чейинки сроктогу продукталардын атын жана срокторун чыгар.
+select sum(price) from products join product_info pi on products.id = pi.product_id where pi.expiration_date between '2021-01-01' and '2023-12-31';
+
+--13.Срогу "2022" болгон продукталардын шаарын , продукталардын атын жана баасын чыгар бирок баалары 0 болуп калсын.
+select country,name,price from product_info join products p on p.id = product_info.product_id offset p.price=0;--butkon jok
+
+--14.Баардык кардарлардын продукталарынын сумассын чыгар.
+select sum(price) from products join product_info pi on products.id = pi.product_id;
+
+--15.Кардардын аты жана ал сатып алган продуктунун аты, тусу чыксын.
+select first_name,name,color from customers join basket b on customers.id = b.customer_id
+    join product_basket b2 on b.id = b2.basket_id join products p on p.id=b2.product_id
+    join product_info pi on p.id = pi.product_id;
+
+--16.Баардык продуктулардын салмактарын чыгар.
+select weihgt from products;
+
+--17.Кардарлардын email_дары "com" менен буткон кардарлардын аттары, корзинасынын аты чыксын.
+select first_name,basket_name from customers join basket b on customers.id = b.customer_id where customers.email ilike '%.com';
+
+--18.Продуклардын атын, кыскача маалыматын(description), кардардын атын чыгар качан кардарлардын номери жок(null) болсо.
+
+
+--19.Бардык продуктунун тустору жана тустору окшош продукталары чыксын.
+select color from product_info order by color;
+
+--20.Баардык продукталардын мамлекти окшош болгон продукталардын атын жана анын кардарларын атын чыгар.
